@@ -8,7 +8,7 @@ public class StudentDao {
 
 	public static List<Student> createStudents() {
 		List<Student> students = new ArrayList<>();
-		students.add(new Student("Alice", 2018, 82, LocalDate.of(1998,5,4)));
+		students.add(new Student("Alice", 2018, 82, LocalDate.of(1998,1,31)));
 		students.add(new Student("Bob", 2017, 90, LocalDate.of(1998,8,8)));
 		students.add(new Student("Carol", 2018, 67, LocalDate.of(1997, 12,23)));
 		students.add(new Student("David", 2018, 80, LocalDate.of(1997, 3,23)));
